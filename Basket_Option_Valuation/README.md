@@ -1,4 +1,4 @@
-# Basket Call Option Valuation
+# Basket Call Option Valuation Using Monte-Carlo Simulation
 ## Consider a basket call option on two assets. For the first asset, 
 ### 
 - the current asset price is $100,
