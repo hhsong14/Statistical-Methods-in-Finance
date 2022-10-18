@@ -29,4 +29,4 @@ hist(dat$rZM, probability = TRUE, breaks = 30, ylim = c(0,20))
 thetaNIG = resultNIG$par
 thetaLAPLACE = c(mu_lp, b_lp)
 curve(NIG(x, thetaNIG), add = TRUE, col = "red", lwd =3, lty=1) ## NIG
-curve(laplace(x, thetaLAPLACE), add = TRUE, col = "cyan", lwd =3, lty = 3) ## Laplace
+curve(laplace(x, thetaLAPLACE), add = TRUE, col = "blue", lwd =3, lty = 3) ## Laplace
