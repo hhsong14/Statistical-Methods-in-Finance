@@ -1,5 +1,4 @@
 rm(list = setdiff(ls(), lsf.str())) # remove all variables except functions
-setwd("C:/Users/Lenovo/Desktop/IE522/HW7/")
 
 dat <- read.csv("ZMTSLA.csv")
 t = 1/252
